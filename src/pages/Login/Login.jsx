@@ -18,10 +18,8 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // API 호출
       const response = await postData(userData);
       console.log(response);
-      // 서버로부터 응답을 받았을 때 필요한 로직을 작성합니다.
     } catch (error) {
       console.error("Error submitting user data:", error);
     }
@@ -29,7 +27,7 @@ const Login = () => {
 
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>로그인</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

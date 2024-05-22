@@ -4,14 +4,14 @@ import useNavi from "hooks/useNavigation";
 const Home = () => {
   const navigate = useNavi();
 
-  const loginHandle = () => {
+  const handleLogin = () => {
     navigate("/login");
   };
 
   return (
     <div>
       <div>Home</div>
-      <div onClick={() => loginHandle()}>로그인</div>
+      <div onClick={() => handleLogin()}>로그인</div>
     </div>
   );
 };

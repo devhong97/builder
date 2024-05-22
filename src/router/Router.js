@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 /*****************************************************************/
-import NotFound from "components/common/NotFound";
+import NotFound from "components/Common/NotFound";
 import Home from "pages/Home/Home";
 import Login from "pages/Login/Login";
 /*****************************************************************/

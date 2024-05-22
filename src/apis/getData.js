@@ -2,7 +2,7 @@ import axios from "axios";
 /*****************************************************************/
 // GET 형태 API
 /*****************************************************************/
-export const postData = async (userData) => {
+export const getData = async (userData) => {
   try {
     const response = await axios.get(
       "http://localhost:3001/api/user",
